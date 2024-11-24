@@ -97,7 +97,7 @@ Total Time Elapsed: (build + prove + verify) 35.767325417s
 ```
 
 ## Fibonacci
-> variants: 1, 10, 100, 1000, 10000, 100000
+> variants: 1, 10, 100, 1000, 10000, 50000, 62500, 70000
 
 ```rust
 fn fib(n: u64) -> u128 {
