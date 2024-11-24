@@ -8,8 +8,8 @@
 
 - Benchmark Operations
   - Arithmetic Operations: Addition, Subtraction, Multiplication, Division
-  - Fibonacci: Variants 1, 10, 100, 1000, 10000, 100000
-  - SHA256: Variants: 32b, 1k bytes, 2k bytes, 3k bytes, 4k bytes, 5k bytes, 10k bytes
+  - Fibonacci: Variants 1, 10, 100, 1000, 10000, 50000, 62500, 70000
+  - SHA256: Variants: 32b, 100b, 1k bytes, 2k bytes, 3k bytes, 5k bytes, 10k bytes
   - Poseidon: 32 bytes
 
 Each benchmark code followed by its output metrics is listed below.
