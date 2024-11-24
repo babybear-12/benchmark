@@ -1,9 +1,0 @@
-Trace length: 141
-Prover Time 31.297901583s
-Proof Size 266277
-
-Verify Time 45.633542ms
-
-result: 30
-valid: true
-Total Time elapsed: 31.505612833s

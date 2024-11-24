@@ -1,5 +1,5 @@
 [package]
-name = "nth_prime-native_jolt"
+name = "fib"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,7 +12,7 @@ codegen-units = 1
 lto = "fat"
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", rev = "dd9e5c4bcf36ffeb75a576351807f8d86c33ec66", features = ["host"] }
+jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["host"] }
 guest = { path = "./guest" }
 serde_json = "1.0.128"
 

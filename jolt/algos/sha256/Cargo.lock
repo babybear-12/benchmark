@@ -1869,15 +1869,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "nth_prime-native_jolt"
-version = "0.1.0"
-dependencies = [
- "guest",
- "jolt-sdk",
- "serde_json",
-]
-
-[[package]]
 name = "nu-ansi-term"
 version = "0.46.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2756,6 +2747,15 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
+]
+
+[[package]]
+name = "sha"
+version = "0.1.0"
+dependencies = [
+ "guest",
+ "jolt-sdk",
+ "serde_json",
 ]
 
 [[package]]

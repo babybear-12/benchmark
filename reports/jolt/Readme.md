@@ -370,13 +370,13 @@ pub fn pos() {
 
 - Input Size: 32 bytes
 ```shell
+SRS Compute and Guest Program Compile Time: 40.689255292s
 Trace length: 554595
-Prover Time 434.08379375s
+Prover Time 91.378150083s
 Proof Size 477746
 
-Verify Time 238.556041ms
+Verify Time 194.948792ms
 
-result: ()
-valid: true
-Total Time elapsed: 434.536444333s
+isProofValid: true
+Total Time Elapsed: (build + prove + verify): 132.263622292s
 ```

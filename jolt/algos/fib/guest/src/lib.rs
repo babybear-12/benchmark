@@ -10,6 +10,5 @@ fn fib(n: u64) -> u128 {
         a = b;
         b = sum;
     }
-
     b
 }

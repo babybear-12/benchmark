@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "add"
+version = "0.1.0"
+dependencies = [
+ "guest",
+ "jolt-sdk",
+ "serde_json",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1865,15 +1874,6 @@ dependencies = [
  "cfg-if",
  "cfg_aliases",
  "libc",
-]
-
-[[package]]
-name = "nth_prime-native_jolt"
-version = "0.1.0"
-dependencies = [
- "guest",
- "jolt-sdk",
- "serde_json",
 ]
 
 [[package]]

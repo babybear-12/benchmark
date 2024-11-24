@@ -1839,6 +1839,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "multi"
+version = "0.1.0"
+dependencies = [
+ "guest",
+ "jolt-sdk",
+ "serde_json",
+]
+
+[[package]]
 name = "native-tls"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1865,15 +1874,6 @@ dependencies = [
  "cfg-if",
  "cfg_aliases",
  "libc",
-]
-
-[[package]]
-name = "nth_prime-native_jolt"
-version = "0.1.0"
-dependencies = [
- "guest",
- "jolt-sdk",
- "serde_json",
 ]
 
 [[package]]
